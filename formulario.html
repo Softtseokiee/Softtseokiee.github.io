@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Formulario</title> <!-- Nombre de la pestaña -->
+    <link rel="icon" href="img/TO-BE-HERO-ICON.png"> <!-- Icono de la pestaña -->
+    <link rel="stylesheet" href="contacto.css">
+    <link rel="stylesheet" href="css/formulario.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+
+    </header>
+    <main class="principal">
+        <h1>FORMULARIO HÉROE/ANTI-HÉROE</h1> <!--titulo formulario-->
+        <section>
+        <form>
+            <div> <!--Se implementa el uso de varios "div" como divisor de campos del formulario-->
+                <label for="nombre-real">Nombre real: 
+                <input id="nombre-real" name="nombre-real" type="nombre" class="formulario" placeholder="Florencia Moya">
+                </label> 
+            <div> 
+                <label for="nombre-de-heroe/anti-héroe">Nombre de héroe/anti-héroe: 
+                <input id="nombre-de-heroe/anti-héroe" name="nombre-de-heroe/anti-héroe" type="nombre" class="formulario" placeholder="Lucky cian">
+                </label>
+            </div>
+            <div>
+                <label for="e-mail">Email:
+                <input id="e-mail" name="e-mail" type="email" class="formulario" placeholder="alguien@example.com">
+                </label>
+            </div>
+            <div>
+                <legend>Héroe/Anti-héroe (obligatorio): </legend>
+                <label for="seleccion_héroe"><input id="seleccion_héroe" type="radio" name="seleccion" class="seleccion"/>Héroe</label>
+                <label for="seleccion_anti-héroe"><input id="seleccion_anti-héroe" type="radio" name="seleccion" class="seleccion" /> Anti/héroe</label>
+            </div>
+            <div>
+                <label for="bio">¿Por qué quieres ser un héroe/anti-héroe?:
+                <textarea id="bio" name="bio" rows="3" cols="30" placeholder="Quiero ser un..."></textarea>
+            </div>
+            <div>
+                <label for="terminos-y-condiciones">
+                <input class="terminos-y-condiciones" id="terminos-y-condiciones" type="checkbox" required name="terminos-y-condiciones" /> Yo acepto los <a href="https://www.aniplex.co.jp/help/privacy.html" target="_blank">terminos y condiciones</a>
+                </label>
+            </div>
+                <button id="boton-enviar" type="submit">Enviar
+                </button>   
+        </section>
+        </form>
+        </main>
+        <footer>
+            <div class="derechos-y-fecha">
+                <div class="colab">
+                    <img src="img/BILI_BIG.D.png" class="bilibili">
+                    <img src="img/x_deco.png" class="separador">
+                    <img src="img/aniplexlogo.png" class="aniplex">
+                </div>
+                    <p class="derechos-de-autor">Esta pagina contiene todos sus derechos de autor de manera reservada</p>
+                    <p class="fecha"></p>
+                    <p class="autor">Creada por: @Softtseokie</p>
+            </div>   
+        </footer>
+</body>
+</html>

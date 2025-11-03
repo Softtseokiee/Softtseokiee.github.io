@@ -1,0 +1,168 @@
+/* Fuentes importadas */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+@media (min-width:0px){    /* medida de telefono */
+  body{
+    background-color: #00fa9a;
+  }
+}
+
+@media (min-width:768px){   /* medida de tablet */
+  body{
+    background-color: aqua;
+  }
+}
+
+@media (min-width:1024px){   /* medida de computador */
+  body{
+    background-color: blue;
+  }
+}
+
+  :root{  /* Registro de colores para uso facil */
+    /* colores rojos */
+  --color-red01: #ff4040;
+	--color-red02: #ed2215;
+	--color-red03: #ff211e;
+
+    /* characters color */
+	--chara-color-x: #eaf4fc;
+	--chara-color-queen: #f8e58c;
+	--chara-color-dragon: #7f1184;
+	--chara-color-ghostblade: #fcc800;
+	--chara-color-little: #ff9933;
+	--chara-color-loli: #eb6ea0;
+	--chara-color-lucky: #00fa9a;
+	--chara-color-ahu: #f5b2ac;
+	--chara-color-soul: #008db7;
+	--chara-color-nice: #fdd35c;
+
+}
+
+ 
+ /* Modificaciones contenido general y formulario */
+body{
+  background-color:#ededed;
+}
+
+main{
+  text-align:left;
+  margin: 0 auto;  
+  z-index: 10000;
+  position: relative;
+  background-color: #ededed;
+}
+
+h1{
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  font-size: 50px;
+}
+
+form {
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 2em;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+}
+
+fieldset {
+  border: none;
+  padding: 2rem 0;
+  border-bottom: 3px solid #3b3b4f;
+}
+
+fieldset:last-of-type {
+  border-bottom: none;
+}
+
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+input,textarea, select {
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 2em;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+}
+
+input, textarea {
+  background-color: var(--color-red01);
+  border: 1px solid #0a0a23;
+  color: #ffffff;
+}
+
+.seleccion, .terminos-y-condiciones {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+
+button {
+  display: block;
+  width: 50%;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  background-color:var(--color-red01);
+  border-color: black;
+  min-width: 300px;
+  color: #ffffff;
+  font-family: "Oswald", sans-serif;
+}
+
+input[type="file"] {
+  padding: 1px 2px;
+}
+
+input::placeholder, textarea::placeholder {
+  color: #ffffff;
+}
+
+ /* Modificaciones pie de pagina */
+.derechos-y-fecha {
+  background-color: black;
+  padding: 1px;
+}
+
+.colab{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.bilibili, .aniplex{
+  width: 100px;
+}
+
+.separador{
+  width: 25px;
+  padding: 2.5%;
+}
+
+.derechos-de-autor, .fecha, .autor{
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  color: white;
+  background-color: black;
+  padding: 15px;
+  margin-top: 0%;
+}
+
+.fecha{
+  position: absolute;
+  right: 1rem;
+}
+
+.autor{
+  text-align: left;
+}
