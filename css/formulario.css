@@ -39,7 +39,47 @@
 
 }
 
- 
+header{
+  width: 100%;
+  padding: 1rem 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.logo{
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+
+  margin-right: auto;
+  margin-left: 30px;
+}
+
+.logo img{
+  width: 100px;
+  height: 40px;
+}
+
+.lista-paginas{
+  list-style: none;
+  padding: 0.5rem 1rem;
+
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.pagina {
+  padding: 0.5rem 1rem;
+  list-style: none;
+}
+
+.pagina a {
+  text-decoration: none;
+  display: block;
+  color: black;
+}
+
  /* Modificaciones contenido general y formulario */
 body{
   background-color:#ededed;
@@ -57,6 +97,7 @@ h1{
   text-align: center;
   font-family: "Oswald", sans-serif;
   font-size: 50px;
+  padding-top: 2rem;
 }
 
 form {
